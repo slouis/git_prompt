@@ -1,5 +1,5 @@
 #!/bin/bash
-#copy from great excellent http://opinionatedprogrammer.com/2011/01/colorful-bash-prompt-reflecting-git-status/
+#copy from great blog : http://opinionatedprogrammer.com/2011/01/colorful-bash-prompt-reflecting-git-status/
 
 function _git_prompt() {
     local git_status="`git status -unormal 2>&1`"
